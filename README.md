@@ -3,9 +3,8 @@
 ***
 
 ## Custom configuration files for:
--Tmux
--Zsh
--Bash
--Git
--Vim
--LaTex
+* Tmux
+* Zsh
+* Bash
+* Git
+* Vim
