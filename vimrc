@@ -1,13 +1,20 @@
-let g:solarized_termcolors=256
-syntax enable
+set nocompatible " not vi compatible
 
+" ---- THEME ---- 
+let g:solarized_termcolors=256
 set background=light
 colorscheme solarized
-set noerrorbells
+
+" ---- SYNTAX & INDENTS ---- 
+syntax enable " turn on syntax highlighting
+set showmatch " show matching braces
 set tabstop=4 softtabstop=4
+set smartindent
 set shiftwidth=4
 set expandtab
-set smartindent
+set autoindent
+
+" ---- BASIC EDITING SETTINGS ----
 set smartcase
 set noswapfile
 set nobackup
@@ -40,3 +47,5 @@ set nu
 " Wrap lines if window is too small
 set wrap
 
+" remove annoying error bells
+set noerrorbells
