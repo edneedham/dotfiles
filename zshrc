@@ -1,12 +1,9 @@
-#Aliases
-alias ll='ls -lAFh'
+# Aliases
+source ~/.shell/aliases.sh
 
-#Custom Prompt(s)
+# Custom Prompt(s)
 PROMPT='
 %1~ %L %# '
 
-#Handy Functions
-function mkcd () {
-    mkdir -p "$@" && cd "$_";
-}
-
+# Functions
+source ~/.shell/functions.sh

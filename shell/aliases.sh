@@ -11,7 +11,4 @@ alias l='ls'
 alias cp='cp -i'
 alias mv='mv -i'
 
-# git related aliases
-alias gag='git exec ag'#Aliases
-alias ll='ls -lAFh'
 

@@ -2,7 +2,7 @@ set nocompatible " not vi compatible
 
 " ---- THEME ---- 
 let g:solarized_termcolors=256
-set background=light
+set background=dark
 colorscheme solarized
 
 " ---- SYNTAX & INDENTS ---- 

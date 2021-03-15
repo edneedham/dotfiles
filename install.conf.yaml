@@ -9,7 +9,8 @@
     ~/.vim: 
     ~/.vimrc: 
     ~/.zshrc: 
-        
+    ~/.shell:
+    ~/.dotfiles: ''
 
 - create:
     - ~/.vim/undo-history
