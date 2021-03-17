@@ -1,15 +1,25 @@
 set nocompatible " not vi compatible
 
-" ---- THEME ---- 
-let g:solarized_termcolors=256
-set background=dark
-colorscheme solarized
-
 " ---- SYNTAX & INDENTS ---- 
 syntax enable " turn on syntax highlighting
-
-if !has('gui_running') " gui check
-    set t_Co=256
+if has ('gui_running')
+    colorscheme solarized
+    let g:lightline = {'colorscheme': 'solarized'}
+elseif &t_Co < 256
+    colorscheme default
+    set nocursorline " looks bad in default
+else
+    set background=dark
+    let g:solarized_termcolors=256
+    colorscheme solarized
+    " customized colors
+    highlight SignColumn ctermbg=234
+    highlight StatusLine cterm=bold ctermfg=245 ctermbg=235
+    highlight StatusLineNC cterm=bold ctermfg=245 ctermbg=235
+    let g:lightline = {'colorscheme': 'dark'}
+    highlight SpellBad cterm=underline
+    " patches
+    highlight CursorLineNr cterm=NONE
 endif
 
 filetype plugin indent on " enable file type detection
