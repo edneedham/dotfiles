@@ -7,4 +7,5 @@ alias l='ls'
 alias cp='cp -i'
 alias mv='mv -i'
 
-
+# Python alias to homebrew formula
+alias python=/usr/bin/python3
