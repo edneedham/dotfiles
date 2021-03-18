@@ -16,7 +16,6 @@ else
     highlight SignColumn ctermbg=234
     highlight StatusLine cterm=bold ctermfg=245 ctermbg=235
     highlight StatusLineNC cterm=bold ctermfg=245 ctermbg=235
-    let g:lightline = {'colorscheme': 'dark'}
     highlight SpellBad cterm=underline
     " patches
     highlight CursorLineNr cterm=NONE
