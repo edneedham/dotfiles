@@ -1,5 +1,4 @@
 tap "caskformula/caskformula"
-tap "go-swagger/go-swagger"
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "homebrew/services"
