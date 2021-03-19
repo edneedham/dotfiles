@@ -1,3 +1,8 @@
+# TMUX from start
+if [[ -z "$TMUX" ]]; then
+    tmux new-session -A -s "$USER"
+fi
+
 # Aliases
 source ~/.shell/aliases.sh
 
