@@ -17,4 +17,4 @@ PROMPT='
 %1~ %L %# '
 
 # Check for pyenv updates
-echo 'eval "$(pyenv init -)"'
+eval "$(pyenv init -)"
