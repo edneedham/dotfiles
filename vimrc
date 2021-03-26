@@ -1,7 +1,7 @@
 set nocompatible " not vi compatible
 
 " ---- SYNTAX & INDENTS ---- 
-syntax enable " turn on syntax highlighting
+syntax on " turn on syntax highlighting
 if has ('gui_running')
     colorscheme solarized
     let g:lightline = {'colorscheme': 'solarized'}
