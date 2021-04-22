@@ -17,3 +17,6 @@
 [submodule "vim-fugitive"]
 	path = vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/pack/vendor/start/ale"]
+	path = vim/pack/vendor/start/ale
+	url = https://github.com/dense-analysis/ale
