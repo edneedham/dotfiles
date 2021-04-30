@@ -1,6 +1,6 @@
 # see https://zsh.sourceforge.net/Doc
 # based on Anish's dotfiles -> https://github.com/anishathalye/dotfiles
---------------------------------------------------
+# --------------------------------------------------
 
 # Initialize completion
 autoload -Uz compinit && compinit -i
