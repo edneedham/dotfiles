@@ -1,4 +1,4 @@
-# Ed Needham's Dotfiles
+# Dotfiles
 
 ***
 
