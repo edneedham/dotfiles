@@ -24,3 +24,6 @@ source ~/.zsh/plugins_after.zsh
 
 # Check for pyenv updates
 eval "$(pyenv init -)"
+
+# Path
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
