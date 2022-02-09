@@ -26,4 +26,4 @@ source ~/.zsh/plugins_after.zsh
 eval "$(pyenv init -)"
 
 # Path
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
+export PATH=/Users/ed/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
