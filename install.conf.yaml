@@ -13,6 +13,7 @@
     ~/.vimrc: 
     ~/.zsh:
     ~/.zshrc:
+    ~/.zshenv:
 
 - create:
     - ~/.vim/undo-history
