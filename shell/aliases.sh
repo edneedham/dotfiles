@@ -7,3 +7,10 @@ alias l='ls'
 alias cp='cp -i'
 alias mv='mv -i'
 
+# Git aliases
+alias amend="git commit -a --amend -C@"
+alias mn="git checkout main"
+alias rb="git rebase main"
+alias rbc="git rebase --continue"
+alias up="git pull upstream main"
+

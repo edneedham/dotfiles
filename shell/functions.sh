@@ -5,4 +5,16 @@ disp_colors() {
     done
 }
 
+# Git functions
+rbi() {
+    git rebase -i HEAD~$1
+}
+
+cmt() {
+    git commit -a -s -m $1
+}
+
+ck() {
+    git checkout $1
+}
 
