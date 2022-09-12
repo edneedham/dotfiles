@@ -14,7 +14,13 @@
     ~/.zsh:
     ~/.zshrc:
     ~/.zshenv:
-    ~/.config/nvim/init.vim: config/nvim/init.vim
+    ~/.config/nvim/init.lua: config/nvim/init.lua
+    ~/.config/nvim/site: config/nvim/site
+    ~/.config/nvim/lua/opts.lua: config/nvim/lua/opts.lua
+    ~/.config/nvim/lua/vars.lua: config/nvim/lua/vars.lua
+    ~/.config/nvim/lua/keys.lua: config/nvim/lua/keys.lua
+    ~/.config/nvim/lua/plug.lua: config/nvim/lua/plug.lua
+
 
 - create:
     - ~/.vim/undo-history
