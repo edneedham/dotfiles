@@ -49,7 +49,5 @@ return require('packer').startup(function(use)
 
     use 'nvim-treesitter/nvim-treesitter'
 
-    use 'puremourning/vimspector'
-
 end)
 

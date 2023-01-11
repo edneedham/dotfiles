@@ -23,7 +23,8 @@ source ~/.zsh/prompt.zsh
 source ~/.zsh/plugins_after.zsh
 
 # Check for pyenv updates
-eval "$(pyenv init -)"
+eval "$(pyenv init --path)"
 
 # Path
 export PATH=/Users/ed/bin:/Users/ed/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/opt/libpq/bin
+alias python=/usr/bin/python3

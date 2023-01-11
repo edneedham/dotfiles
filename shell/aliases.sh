@@ -14,3 +14,5 @@ alias rb="git rebase main"
 alias rbc="git rebase --continue"
 alias up="git pull upstream main"
 
+# Python for later macOS versions
+alias python=/usr/bin/python3
