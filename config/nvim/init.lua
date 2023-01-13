@@ -97,7 +97,7 @@ cmp.setup({
         ['<CR>'] = cmp.mapping.confirm({
             behaviour = cmp.ConfirmBehavior.Insert,
             select = true,
-        }),
+        })
     },
     -- Installed sources:
     sources = {
