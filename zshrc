@@ -26,5 +26,6 @@ source ~/.zsh/plugins_after.zsh
 eval "$(pyenv init --path)"
 
 # Path
-export PATH=/Users/ed/bin:/Users/ed/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/opt/libpq/bin
+export PATH=/Users/ed/bin:/Users/ed/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/opt/libpq/bin:/usr/local/opt/openjdk@17/bin
 alias python=/usr/bin/python3
+
